@@ -40,7 +40,7 @@ namespace API.Controllers
     //   contains the parameter passed as an ID
     // ---------------------------------------------
     // api/users/3
-    [HttpGet("{id}")]
+    [HttpGet("{Id}")]
     public async Task<ActionResult<AppUser>> GetUser(int id){
         
         // Get users from database
